@@ -1,0 +1,96 @@
+.bloc-1{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	}
+	.bloc-3{
+	padding-top: 70px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	}
+
+
+.title-bloc-3{
+	font-family: 'Anton', sans-serif;
+	font-size: 50px;
+	text-align: center;
+	width: 100%;
+	color: #360014;
+}
+
+#bloc-prof{
+	width: 100%;
+}
+.bloc-photo-prof{
+	display: flex;
+	justify-content: center;
+}
+
+.photo-prof{
+	position: relative;
+	width: 200px;
+	height: 250px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 20px;
+}
+
+.photo-hover:after{
+	position: absolute;
+	content: "";
+	z-index: -1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(250, 250, 250, 0.4);
+	text-align: center;
+}
+
+.photo-prof:hover {
+	background-size: 200px;
+	transition: 0.3s;
+	z-index: 0;
+}
+
+.photo-hover:hover:before{
+	opacity: 1;
+}
+
+.photo-prof:hover p {
+	opacity: 1;
+}
+
+p.photo-hover{
+	opacity: 0;	
+}
+
+.photo-hover{
+	padding: 15px;
+	font-family: arial narrow;
+	font-weight: bold;
+	color: #071C1F;
+}
+
+#ph1{
+	background-image: url(../img/prof2.jpg);
+}
+#ph2{
+	background-image: url(../img/prof1.jpg);
+}
+#ph3{
+	background-image: url(../img/prof3.jpg);
+}
+#ph4{
+	background-image: url(../img/prof4.jpg);
+}
